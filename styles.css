@@ -1,0 +1,93 @@
+/* Reset Style Sheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --neon-green: hsl(75, 94%, 57%); /* Green */
+    --white: hsl(0, 0%, 100%); /* White */    
+    --grey-700: hsl(0, 0%, 20%); /* Grey 700 */
+    --grey-800: hsl(0, 0%, 12%); /* Grey 800 */   
+    --grey-900: hsl(0, 0%, 8%); /* Grey 900 */
+}
+
+/* Body Style */
+body {
+    background-color: var(--grey-900);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Social Profile  */
+#social-profile {
+    border-radius: 15px;
+    background-color: var(--grey-800);
+    width: 375px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+#social-profile img {
+    width: 25%;
+    border-radius: 50%; 
+    display: block;
+    margin: auto;
+}
+
+#social-profile button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--grey-700);
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#social-profile button:hover {
+    background-color: var(--neon-green);
+    color: var(--grey-900);
+}
+
+#social-profile button:focus {
+    outline: 3px solid var(--neon-green);
+    outline-offset: 3px;
+}
+
+#social-profile h1 {
+    color: var(--white);
+    text-align: center;
+    margin-top: 20px;
+}
+#social-profile p {
+    color: var(--white);
+    text-align: center;
+    margin-top: 10px;
+}
+
+#social-profile h2 {
+    color: var(--neon-green);
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+/* Attribution */
+.attribution {
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: var(--neon-green);
+}
