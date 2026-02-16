@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-(/Screenshot-FEM-1.jpg)
+![My Solution Screenshot](./Screenshot-FEM-1.jpg)
 
 
 ### Links
